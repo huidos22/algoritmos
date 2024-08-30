@@ -1,8 +1,5 @@
 package com.huidos22.algoritmos;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 import java.util.Scanner;
 
 public class MaxAplphabeticalSubString {
@@ -18,7 +15,7 @@ public class MaxAplphabeticalSubString {
 
 	private static String getMaxAlphabeticalSubString(String s) {
 		String maxSubStr = "";
-		if (s.length() > 0 && s.length() < 101 && s.matches("[a-z]+")) {
+		if (s.length() > 0 && s.length() < 101 && s.matches("^[a-z]+$")) {
 			
 			System.out.println(s.length());
 			
