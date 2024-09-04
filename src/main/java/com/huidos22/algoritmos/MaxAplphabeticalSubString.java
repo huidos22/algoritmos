@@ -8,6 +8,7 @@ public class MaxAplphabeticalSubString {
 
 		Scanner sc = new Scanner(System.in);
 		String cadena = sc.next();
+		sc.close();
 		// banana resultado = nana
 		System.out.println(getMaxAlphabeticalSubString(cadena));
 
