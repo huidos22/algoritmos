@@ -9,13 +9,18 @@ public class ReverseString {
 		Scanner sc = new Scanner(System.in);
 		String revStr = sc.next();
 		sc.close();
-
+		StringBuffer sbf = new StringBuffer(revStr);
+		sbf.reverse();
+		System.out.println("String: " + revStr + " Reversed:" + sbf.toString());
 		System.out.println("String: " + revStr + " Reversed:" + reverseStr(revStr));
 
 	}
 
 	private static String reverseStr(String cade) {
 
+		
+		
+		
 		String reversedStr = "";
 
 		for (int i = cade.length()-1; i >=0; i--) {
