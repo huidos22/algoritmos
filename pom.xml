@@ -4,4 +4,22 @@
   <artifactId>algoritmos</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <description>ejercisios de algortimos con java </description>
+  
+  
+  <properties>
+    <maven.compiler.release>17</maven.compiler.release>
+  </properties>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>3.11.0</version>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
 </project>

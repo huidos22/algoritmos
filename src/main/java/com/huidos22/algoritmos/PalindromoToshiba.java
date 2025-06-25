@@ -42,7 +42,7 @@ public class PalindromoToshiba {
 					isPal = false;
 					break;
 				}
-				System.out.printlin(arraCad[j] + " == " + arrayB[j]);
+				System.out.println(arraCad[j] + " == " + arrayB[j]);
 			}
 
 			/** solucion chatgpt **/
