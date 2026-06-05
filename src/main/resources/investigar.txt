@@ -1,0 +1,12 @@
+what is completableFuture in java? example
+what is ListeableFuture in java? example
+
+
+how spring security validate the JWT?
+how JWT is created in spring?
+which values are stored in JWT token?
+
+how a consumer read the event of kafka topic in spring?
+types of keys in sql?
+how a sequence works in Oracle?
+how junit runs in spring?

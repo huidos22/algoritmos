@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-public class test1 {
+public class AkkodisTest {
 
 	public static void main(String[] args) {
 
