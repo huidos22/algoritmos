@@ -1,0 +1,132 @@
+    // 1. Find the number of elements in a list of strings.
+    
+    list.stream().count();
+    
+    // 2. Convert all strings in a list to uppercase.
+    list.stream().map(String::toUpperCase()).collect(Collectors.toList()));
+    
+    // 3. Filter a list of strings, keeping only those that start with the letter 'A'.
+    
+    list.stream().filter(s-> s.startsWith('A').collect(Collectors.toList()));
+    
+    // 4. Obtain unique integers from a list.
+    
+    list.stream().collect(Collectors.toSet())));
+    list.stream().distinct().collect(Collectors.toList())));
+    
+    // 5. Calculate the sum of all numbers in a list of integers.
+    
+    list.stream().mapToInt(Integer::intValue).sum()))
+    
+    
+    // 6. Find the minimum number in a list of integers.
+    list.stream().maptoInt(Integer::intValue).min().orElse(Integer.MIN_VALUE)))
+    
+    // 7. Find the maximum number in a list of integers.
+    
+    list.stream().maptoInt(Integer::intValue).max().orElse(Integer.MIN_VALUE)))
+    
+    // 8. Concatenate all strings from a list into one string, separated by commas.
+    
+    list.stream().collect(Collectors.joining(","));
+    
+    // 9. Get the first element of a list of integers or 0 if the list is empty.
+    
+    list.stream().mapToObj(Integer::intValue).findFirst().orElse(0);
+    
+    
+    // 10. Get the last element of a list of strings or "" if empty.
+    
+    list.stream().reduce((first, second) -> second).orElse("");
+    
+    // 11. Convert a list of integers into a list of their squares.
+    // 12. Filter a list of integers, keeping only even numbers.
+    // 13. Find people older than 18 years and return a list of their names.
+    // 14. Sort a list of strings by their length.
+    // 15. Check if a list of strings contains at least one string that includes the word "Java."
+    // 16. Merge two lists of strings into one.
+    // 17. Get the average value of all numbers in a list of integers.
+    // 18. Discard the first three elements in a list of integers.
+    // 19. Keep only the first three elements of a list of integers.
+    // 20. Convert each string into a list of integers representing the character codes.
+    // 21. Count the number of strings longer than 5 characters.
+    // 22. Create a map from a list of strings where key - string, value - its length.
+    // 23. Sort a list of users by their age.
+    // 24. Find the user with the maximum age.
+    // 25. Check if all strings in a list are longer than 3 characters.
+    // 26. Select all every 3rd element from a list of strings (1-based).
+    // 27. Calculate the total number of hobbies all users have.
+    // 28. Find a list of strings that appear more than once in a list.
+    // 29. Convert all users' birthdates to string "AGE MM YYYY".
+    // 30. Filter a list of Person objects, keeping only those who live in "City X".
+    // 31. Reverse the order of elements in a list.
+    // 32. Find the percentage of elements with the value "null" in a list.
+    // 33. Shuffle the elements of a list randomly.
+    // 34. Group numbers by their remainder when divided by 3.
+    // 35. Convert a list of integers into a list of booleans: true for even, false for odd.
+    // 36. Filter a list, keeping only unique elements, and return the result in reverse order.
+    // 37. Create a list of 100 random numbers and find the top 5 largest.
+    // 38. Split a list of strings into groups by their length.
+    // 39. Find the element in a list that has the largest length.
+    // 40. Remove from the list all users whose name starts with "J."
+    // 41. Convert a list of integers into a map: number -> square.
+    // 42. Find the total number of all words in a list of sentences.
+    // 43. Create a list of strings "yes" or "no," based on whether a number is even.
+    // 44. Calculate the range in a list of numbers.
+    // 45. List of lengths of strings, sorted in descending order.
+    // 46. Find the sum of all string lengths in a list of strings.
+    // 47. Count the number of elements equal to null in a list.
+    // 48. Group users by their year of birth.
+    // 49. Find all unique characters in a list of strings and form them into a sorted list.
+    // 50. Returns a list of user names, sorted by the length of these names.
+    // 51. Group a list of integers by even or odd.
+    // 52. Find the second largest number in a list.
+    // 53. Get a comma-separated list of the first letters of each string.
+    // 54. Partition strings into those containing digits and those not.
+    // 55. Remove palindromes from a list of strings.
+    // 56. Find the most frequent string in a list.
+    // 57. Remove empty or blank strings from a list.
+    // 58. Double only odd numbers in a list.
+    // 59. Replace negative numbers in a list with zero.
+    // 60. Get a map of string lengths to the count of strings of that length.
+    // 61. Filter numbers that are perfect squares.
+    // 62. Get the first non-repeating string in a list.
+    // 63. Sum of all odd numbers in a list.
+    // 64. Capitalize the first letter of each string.
+    // 65. Find all pairs of numbers that sum to a given value.
+    // 66. Map each word in a sentence to its frequency (case-insensitive).
+    // 67. Repeat each string in a list twice (e.g., "abc" -> "abcabc").
+    // 68. Find unique words from a list of sentences.
+    // 69. Sum all elements except the largest and smallest.
+    // 70. Return the list truncated at the first occurrence of 0 (not including the 0).
+    // 71. Group words by their first letter.
+    // 72. Get the N longest strings in a list.
+    // 73. Join all numbers as a string, separated by dashes.
+    // 74. Swap even and odd indexed elements in a list.
+    // 75. Remove all elements except the last N elements.
+    // 76. Partition a list of numbers into primes and non-primes.
+    // 77. Map string to its reverse.
+    // 78. Give a list of every prefix of each string (e.g. "abc" -> "a", "ab", "abc").
+    // 79. Multiply all numbers in the list.
+    // 80. Remove all vowels from all strings in a list.
+    // 81. Create a map of strings to number of vowels in each.
+    // 82. Count palindromes in a list.
+    // 83. Collect the indices of all negative numbers.
+    // 84. Group numbers by the sum of their digits.
+    // 85. For each word, repeat it as many times as its length (e.g., "hi" -> "hihi").
+    // 86. Check if a string list is sorted (lexicographically).
+    // 87. Combine two lists into pairs (zip).
+    // 88. Find all substrings of a string list.
+    // 89. Set negative numbers to their absolute value.
+    // 90. Find all palindromic numbers in a list.
+    // 91. Map lowercased strings to their frequency.
+    // 92. Filter numbers that are Fibonacci numbers.
+    // 93. Get the difference between every consecutive element in a list.
+    // 94. Count the number of strings ending with a vowel.
+    // 95. Extract only the unique sorted words from sentences.
+    // 96. Find the product of all even numbers.
+    // 97. Replace each string with its length in a list.
+    // 98. Flatten a list of integer lists into a single list.
+    // 99. Remove any integers that are multiples of either 3 or 5.
+    // 100. Get the longest string for each string length.
+    // 101. Find all substrings of a string list and count the repeated substring.
